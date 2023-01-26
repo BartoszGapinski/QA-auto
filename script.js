@@ -25,5 +25,4 @@ function mojaFunkcja(imie) {
     
     console.log(message);
     
-
 }
