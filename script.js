@@ -8,19 +8,17 @@ function myColorChange() {
     element.style.color = "red";
 }
 
-const przesylka = {
-  name: "",
-  ulica: "",
-};
+class Przesylka {
+  constructor(name, waga){
+    this.name = name;
+    this.waga = waga;
+  }
 
-const przesylka2 = {
-  name: "",
-  ulica: "",
-};
+}
+let przesylka = new Przesylka("List", ""); 
+let przesylka2 = new Przesylka("Paczka, ", 20); 
 
 przesylka2.waga = 20;
-przesylka.name = "List";
-przesylka2.name = "Paczka";
 
 
 
